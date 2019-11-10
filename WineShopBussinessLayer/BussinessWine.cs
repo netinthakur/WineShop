@@ -49,7 +49,7 @@ namespace WineShopBussinessLayer
                     wine = (from w in db.Wines where w.ID.ToString() == wineID select w).ToList();
                 }
                 return wine;
-;
+
             }
             catch (Exception ex)
             {
